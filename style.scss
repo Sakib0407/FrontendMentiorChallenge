@@ -143,7 +143,7 @@ padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
-  justify-content: center;
+  justify-self: center;
   align-content: space-between;
  
 
@@ -155,20 +155,22 @@ padding-bottom: 20px;
   }
   &__text{
     font-size: 18px;
+    width: 90%;
    
   }
 }
 .articles{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  
  
 }
 .art{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  
+  
   padding-bottom: 50px;
 }
 
@@ -181,7 +183,7 @@ padding-bottom: 20px;
   border-radius: 4px;
 }
 .height{
-  height: 160px;
+  height: 35%;
 }
 h6{
   font-size: 20px;
