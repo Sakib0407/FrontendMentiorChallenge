@@ -152,7 +152,7 @@ ul .items:hover {
 .text_main {
   width: 50%;
   padding: 50px 0;
-  margin-top: 50px;
+  padding-top: 80px;
 }
 
 .title {
@@ -230,10 +230,11 @@ ul .items:hover {
           justify-content: center;
   -ms-flex-line-pack: justify;
       align-content: space-between;
+  padding-bottom: 50px;
 }
 
 .pad {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .img {
@@ -297,6 +298,7 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-left: 5px;
 }
 
 .logo2 img {
@@ -305,6 +307,7 @@ footer {
 
 .btn1 {
   width: 70%;
+  margin-top: -10px;
 }
 
 .a {
@@ -314,5 +317,17 @@ footer {
 
 .logo {
   margin-top: 10px;
+}
+
+.a1 {
+  margin-top: 10px;
+}
+
+.logotext {
+  color: azure;
+}
+
+.gap {
+  gap: 20px;
 }
 /*# sourceMappingURL=style.css.map */
