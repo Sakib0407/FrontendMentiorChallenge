@@ -142,6 +142,9 @@ padding-bottom: 20px;
 .features{
   display: flex;
   flex-direction: column;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-content: space-between;
  
 
   &__h4{
@@ -152,7 +155,7 @@ padding-bottom: 20px;
   }
   &__text{
     font-size: 18px;
-    width: 90%;
+   
   }
 }
 .articles{
